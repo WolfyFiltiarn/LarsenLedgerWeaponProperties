@@ -2,7 +2,7 @@
   "name": "LarsenLedgerwp",
   "title": "LarsensLedger",
   "description": "Adds Larsen Ledgers new weapon properties",
-  "version": "0.3.0",
+  "version": "0.2.1",
   "author": "Wolfy",
   "systems": ["dnd5e"],
   "styles": [],
