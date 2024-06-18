@@ -1,6 +1,5 @@
 // Adds new Weapon types of Larsens Ledger
 Hooks.once("init", () => {
-  CONFIG.debug.hooks = true;
 
   // Adding weapon proficiencies
   CONFIG.DND5E.weaponIds.Blunderbuss = "Compendium.larsene-ledger-treasures-and-trinkets.weapons-item.Item.QrRQWXWL1ECa7kA1";
@@ -23,8 +22,6 @@ Hooks.once("init", () => {
   
 
   // Adding weapon properties of Loot Tavern
-
-
   CONFIG.DND5E.itemProperties.adaptable = {
     label: "Adaptable",
     isPhysical: "true"
